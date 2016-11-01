@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> index html </title>
+</head>
+<body>
+
+
+{% if user %}
+    <strong>{{ user.username }}</strong>
+{% else %}
+    <strong>none</strong>
+{% endif %}
+
+<table>
+    {% for post in posts %}
+    <tr>
+        <td>{{ post.nickname }}</td>
+        <td>{{ post.body }}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
