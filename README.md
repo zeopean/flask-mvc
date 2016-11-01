@@ -1,2 +1,2 @@
 # flask-mvc
-flask 安装mvc 来进行开发
+flask 按照 mvc 来进行开发
